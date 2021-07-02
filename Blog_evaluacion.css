@@ -96,7 +96,6 @@ background-color: green;
 
 
 
-  color: rgb(rgb(17, 17, 17), rgb(10, 10, 10), rgb(0, 0, 0));
 font-size: 30px;
 font-style:normal;
 font-family: 'Archivo Black' ;
@@ -522,4 +521,48 @@ margin: 40px;
 }
 .social-button--instagram::after {
   background: #c13584;
+}
+
+
+/** Categorias **/
+.categorias ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.categorias ul li {
+  flex: 1 0 calc(50% - 1rem);
+  padding: 2rem;
+}
+.categorias ul li:nth-child(1) {
+  background-color: #008fd1;
+}
+.categorias ul li:nth-child(2) {
+  background-color: #db008d;
+}
+.categorias ul li:nth-child(3) {
+  background-color: #9800d1;
+}
+.categorias ul li:nth-child(4) {
+  background-color: #eca300;
+}
+@media screen and (min-width:768px) {
+  .categorias ul li {
+      flex: 1 0 calc(25% - 1rem);
+  }
+}
+
+.categorias ul li a {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.categorias ul li i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
