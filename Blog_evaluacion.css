@@ -549,18 +549,7 @@ margin: 40px;
 .categorias ul li:nth-child(4) {
   background-color: #eca300;
 }
-.categorias ul li:nth-child(5) {
-  background-color: #00e096;
-}
-.categorias ul li:nth-child(6) {
-  background-color: #ff5e5e;
-}
-.categorias ul li:nth-child(7) {
-  background-color: #e400ec;
-}
-.categorias ul li:nth-child(8) {
-  background-color: #00a9ec;
-}
+
 @media screen and (min-width:768px) {
   .categorias ul li {
       flex: 1 0 calc(25% - 1rem);
