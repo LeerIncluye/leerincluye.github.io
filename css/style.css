@@ -1,10 +1,10 @@
 :root {
-    --primario: #7abe47;
-    --secundario: #ffc845;
+    --primario: #624fd1;
+    --secundario: #ff1b1bf3;
     --negro: #000000;
     --claro: #ffffff;
     --gris: #eeeeee;
-    --oscuro: #57a42b;
+    --oscuro: #49c965;
     --padding: 1rem;
     --paddingt: 2rem;
 }
@@ -58,6 +58,11 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
     justify-content: center;
+}
+
+
+.logo{
+    max-width: 4.875rem ;
 }
 @media (min-width:992px) {
     .header .contenedor {
