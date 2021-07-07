@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+h2 {
+    text-align: center;
+}
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+}
+
+
+/** Comentarios **/
+.contenedor-comentario {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor-comentario .avatar {
+    margin-right: 1rem;
+    /* order: 2; */
+}
+.contenedor-comentario .comentario {
+    flex: 1;
+}
+.segundo-nivel {
+    background-color: #e1e1e1;
+    padding: 1rem;
+}
+
+
+
+/** Footer **/
+.pagina {
+    max-width: 800px;
+    margin:0 auto;
+
+    /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.pagina > * {
+    padding: 1rem;
+}
+.pagina .encabezado {
+    background-color: #CDDC39;
+}
+.pagina .contenido-principal {
+    background-color: #B2DFDB;
+    flex: 1;
+}
+.pagina .footer {
+    background-color: #212121;
+    color: white;
+}
+
+
+/** Centrado **/
+
+.centrado {
+    min-height: 100vh;
+    background-image: url(../img/hamburguesa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado > div {
+    flex: 0 0 calc(33.3% - 3rem);
+}
+.contenido-centrado {
+    color: white;
+    text-align: center;
+}
+.contenido-centrado h1 {
+    color: #e0ab10;
+    text-transform: uppercase;
+    margin:0;
+}
+.contenido-centrado p {
+    margin:0;
+}
+.contenido-centrado .ubicacion {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.aviso {
+    background-color: #e0ab10;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.aviso span {
+    font-size: 3rem;
+    display: block;
+}
+.arriba {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+.abajo {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}

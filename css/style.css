@@ -326,3 +326,55 @@ h3 {
     padding: 0;
     list-style: none;
 }
+
+
+/** Centrado **/
+
+.centrado {
+    min-height: 100vh;
+    background-image: url(../imagenes/BBSnegro.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado > div {
+    flex: 0 0 calc(33.3% - 3rem);
+}
+.contenido-centrado {
+    color: white;
+    text-align: center;
+}
+.contenido-centrado h1 {
+    color: #e0ab10;
+    text-transform: uppercase;
+    margin:0;
+}
+.contenido-centrado p {
+    margin:0;
+}
+.contenido-centrado .ubicacion {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.aviso {
+    background-color: #e0ab10;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.aviso span {
+    font-size: 3rem;
+    display: block;
+}
+.arriba {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+.abajo {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
