@@ -345,7 +345,7 @@ h3 {
     flex: 0 0 calc(33.3% - 3rem);
 }
 .contenido-centrado {
-    color: white;
+    color: rgb(190, 33, 204);
     text-align: center;
 }
 .contenido-centrado h1 {
