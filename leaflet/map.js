@@ -1,6 +1,6 @@
 let myMap = L.map('myMap').setView([19.374390875916195, -99.18527649204451], 13)
 
-L.tileLayer(`http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`, {
+L.tileLayer(`	https://tiles.wmflabs.org/osm-no-labels/{z}/{x}/{y}.png`, {
     maxZoom: 18,
 }).addTo(myMap);
 
