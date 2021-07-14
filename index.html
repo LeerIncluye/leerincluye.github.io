@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,21 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
     <title>Leer Nos Incluye a TODOS- IBBY México. Fomento de Lectura</title>
 </head>
+
 <body>
 
     <header class="header hero">
         <div class="barra">
             <div class="contenedor">
                 <div class="logo">
-                   <!-- <img src="imagenes/logo.jpg" class="logo"> -->
+                    <!-- <img src="imagenes/logo.jpg" class="logo"> -->
                 </div>
                 <nav class="navegacion">
                     <ul>
@@ -27,7 +33,8 @@
                     </ul>
                 </nav>
             </div>
-        </div> <!--.header-superior-->
+        </div>
+        <!--.header-superior-->
         <div class="header-contenido">
             <div class="contenedor">
                 <h1 id="saludo">Bienvenido</h1>
@@ -40,8 +47,8 @@
         </div>
         <div class="contenido-nosotros">
             <h1> LEER NOS INCLUYE A TODOS</h1>
-            <p> Somos una organización que trabaja el fomento de la lectura, a través de la creación de espaciós comunitarios. Lo hacemos porque somos testigos de como la lectura en conjunto con el diálogo,
-                 el desarrollo de vinculos mediados por las emociones, el apoyo, pueden trasmnformar la vida de las personas <br></p>
+            <p> Somos una organización que trabaja el fomento de la lectura, a través de la creación de espaciós comunitarios. Lo hacemos porque somos testigos de como la lectura en conjunto con el diálogo, el desarrollo de vinculos mediados por las emociones,
+                el apoyo, pueden trasmnformar la vida de las personas <br></p>
         </div>
     </section>
 
@@ -52,28 +59,32 @@
             <div class="anuncio">
                 <img src="imagenes/bunko.jpg">
                 <div class="card">
-                    <h3 class="titulo"> ¿ Qué es el bunko Roma-Condesa y porque te recomendamos visitarlos ¡YA!?  </h3>
+                    <h3 class="titulo"> ¿ Qué es el bunko Roma-Condesa y porque te recomendamos visitarlos ¡YA!? </h3>
                     <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
                     <p class="precio">
                         descripción <span>texto </span>
                     </p>
                     <a href="#" class="boton">Más Información</a>
-                </div><!--.card-->
-            </div><!--.casa-->
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
             <div class="anuncio">
                 <img src="imagenes/Diapositiva1.png">
                 <div class="card">
-                    <h3 class="titulo"> La deconstrucción del género en la Literatura Infantil y Juvenil   </h3>
+                    <h3 class="titulo"> La deconstrucción del género en la Literatura Infantil y Juvenil </h3>
                     <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
 
                     <p class="precio">
-                      descripción  <span> texto </span>
+                        descripción <span> texto </span>
                     </p>
                     <a href="#" class="boton">Más Información</a>
-                </div><!--.card-->
-            </div><!--.casa-->
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
 
-           
+
             <div class="anuncio">
                 <img src="imagenes/Diapositiva15.png">
                 <div class="card">
@@ -81,49 +92,77 @@
                     <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
 
                     <p class="precio">
-                      descripción  <span>texto </span>
+                        descripción <span>texto </span>
                     </p>
                     <a href="#" class="boton">Más Información</a>
-                </div><!--.card-->
-            </div><!--.casa-->
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
             <div class="anuncio">
                 <img src="imagenes/tren.jpg">
                 <div class="card">
                     <h3 class="titulo">Nadia Ñuu Savi: El tren. Un libro sobre migración para los que comienzan a leer</h3>
                     <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
-  
+
                     <p class="precio">
-                      descripción  <span>texto </span>
+                        descripción <span>texto </span>
                     </p>
                     <a href="#" class="boton">Más Información</a>
-                </div><!--.card-->
-            </div><!--.casa-->
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
             <div class="anuncio">
-              <img src="imagenes/Diapositiva16.png">
-              <div class="card">
-                  <h3 class="titulo">Segunda entrega de: Libros que desafían estereotipos</h3>
-                  <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                <img src="imagenes/Diapositiva16.png">
+                <div class="card">
+                    <h3 class="titulo">Segunda entrega de: Libros que desafían estereotipos</h3>
+                    <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
 
-                  <p class="precio">
-                    descripción  <span>texto </span>
-                  </p>
-                  <a href="#" class="boton">Más Información</a>
-              </div><!--.card-->
-          </div><!--.casa-->
+                    <p class="precio">
+                        descripción <span>texto </span>
+                    </p>
+                    <a href="#" class="boton">Más Información</a>
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
             <div class="anuncio">
                 <img src="imagenes/guia2021.png">
                 <div class="card">
                     <h3 class="titulo">Una leída a la Guía 2021: ¿ cuáles, cómo y dónde? recomendaciones de mediación </h3>
                     <p class="descripcion"> Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
                     <p class="precio">
-                      descripción  <span> texto </span>
+                        descripción <span> texto </span>
                     </p>
 
                     <a href="#" class="boton">Más Información</a>
-                </div><!--.card-->
-            </div><!--.casa-->
-        </div> <!--.venta-->
+                </div>
+                <!--.card-->
+            </div>
+            <!--.casa-->
+        </div>
+        <!--.venta-->
     </section>
+
+
+    <style>
+
+    </style>
+
+    <div id="mapid">
+
+        mapa
+
+        <script>
+        </script>
+
+
+    </div>
+
+
+
+
 
     <footer class="footer">
         <div class="contenedor">
@@ -150,7 +189,8 @@
                             <p> taller 1</p>
                             <p> descripción</p>
                         </div>
-                    </div> <!--.casa-->
+                    </div>
+                    <!--.casa-->
                     <div class="casa">
                         <div class="foto">
                             <img src="img/casa3.jpg" width="100">
@@ -159,7 +199,8 @@
                             <p> taller </p>
                             <p>$2,000,000</p>
                         </div>
-                    </div> <!--.casa-->
+                    </div>
+                    <!--.casa-->
                     <div class="casa">
                         <div class="foto">
                             <img src="img/casa4.jpg" width="100">
@@ -168,7 +209,8 @@
                             <p>taller</p>
                             <p>descripción</p>
                         </div>
-                    </div> <!--.casa-->
+                    </div>
+                    <!--.casa-->
                     <div class="casa">
                         <div class="foto">
                             <img src="img/casa5.jpg" width="100">
@@ -177,9 +219,11 @@
                             <p>taller</p>
                             <p>descripción</p>
                         </div>
-                    </div> <!--.casa-->
+                    </div>
+                    <!--.casa-->
                 </div>
-            </div> <!--.casas-->
+            </div>
+            <!--.casas-->
         </div>
 
         <p class="copyright">Derechos Reservados Leer Nos Incluye a TODOS IAP</p>
@@ -187,24 +231,24 @@
 
 
     <section class="centrado">
-    
+
         <div class="aviso arriba">
             <p>
-                <span> IBBYMéxico</span> Respetando las medidas de salud y recomendaciones para el aforo
-                toda visita es con previa anticipación
+                <span> IBBYMéxico</span> Respetando las medidas de salud y recomendaciones para el aforo toda visita es con previa anticipación
             </p>
         </div>
-    
+
         <div class="contenido-centrado">
-                <h1>Gran Apertura</h1>
-                <p class="fecha"> Agosto / 2021</p>
-                <p class="ubicacion"> Goya 54, 55 5211 9545. CDMX</p>
+            <h1>Gran Apertura</h1>
+            <p class="fecha"> Agosto / 2021</p>
+            <p class="ubicacion"> Goya 54, 55 5211 9545. CDMX</p>
         </div>
-    
+
         <div class="aviso abajo">
             #IBBY-México
         </div>
     </section>
 
 </body>
+
 </html>

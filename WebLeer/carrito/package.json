@@ -1,0 +1,23 @@
+{
+    "name": "carrito",
+    "version": "1.0.0",
+    "description": "proyeto con gulp y sass para leerNI",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-sass": "^4.1.1",
+        "node-sass": "^6.0.1",
+        "sass": "^1.35.2"
+    },
+    "browserlist": [
+        "> 1%",
+        "last 2 version"
+    ]
+}

@@ -1,0 +1,206 @@
+@import'variables';
+@import'mixins';
+html {
+    @include box-sizing (border-box);
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $fuente;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.oculto {
+    display: none;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        padding: 1.4rem 0;
+    }
+}
+
+.carrito-compras {
+    position: relative;
+    &:hover .contenido {
+        display: block;
+        position: absolute;
+        right: 0;
+        background-color: #e1e1e1;
+        padding: 1rem;
+        max-width: 400px;
+        img {
+            max-width: 250px;
+        }
+        .boton {
+            @include boton($principal)
+        }
+    }
+}
+
+.hero {
+    min-height: 24rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: $terciario;
+    display: flex;
+    align-items: center;
+    @include background-imagen ('../img/hero.jpg');
+    .contenido-hero {
+        flex: 1;
+        h2 {
+            font-weight: 300;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        form {
+            position: relative;
+            @include tablet () {
+                width: 40%;
+            }
+            input[type="submit"] {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            input[type="text"] {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.barra {
+    min-height: 7rem;
+    color: $terciario;
+    @include gradiente ($principal, $secundario);
+    display: flex;
+    align-items: center;
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-size: 3rem;
+        @include desktop () {
+            flex-direction: row;
+        }
+        .icono {
+            flex: 1;
+            background-position: 5% !important;
+            @include tablet {
+                background-position: left center !important;
+            }
+            background-size: 2.4rem;
+            text-align: center;
+            &.icono1 {
+                @include background-imagen('../img/icono1.png');
+            }
+            &.icono2 {
+                @include background-imagen('../img/icono2.png');
+            }
+            &.icono3 {
+                @include background-imagen('../img/icono3.png');
+            }
+        }
+    }
+}
+
+
+/** Cursos **/
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .curso {
+        .imagen-curso {
+            width: 100%;
+        }
+        flex: 0 1 calc(50% - 1rem);
+        @include tablet() {
+            flex: 0 1 calc(33% - 1rem);
+        }
+        @include desktop() {
+            flex: 0 1 calc(25% - 1rem);
+        }
+        background-color: #f2f2f2;
+        margin-bottom: 1rem;
+        border: 1px solid #e1e1e1;
+        .info-curso {
+            padding: 1rem 1rem;
+            h4 {
+                margin: 0;
+                font-size: 1.2rem;
+            }
+            .boton {
+                @include boton($principal);
+            }
+            .precio {
+                display: flex;
+                justify-content: space-between;
+                .oferta {
+                    text-decoration: line-through;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        @include telefono() {
+            flex-direction: row;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    @include telefono() {
+        flex: 1;
+    }
+    @include desktop() {
+        flex: 0 1 calc(30% - 1rem);
+    }
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-bottom: .4rem;
+    }
+}
+
+.navegación {
+    @extend .menu;
+    a {
+        color: $principal;
+    }
+}
