@@ -5,7 +5,6 @@ L.tileLayer(`	https://tiles.wmflabs.org/osm-no-labels/{z}/{x}/{y}.png`, {
 }).addTo(myMap);
 
 
-
 let marker = L.marker([19.374390875916195, -99.18476150795547]).addTo(myMap)
 
 let iconMarkerI = L.icon({
@@ -32,10 +31,16 @@ let iconMarker = L.icon({
     iconAnchor: [30, 60]
 })
 
+
 let marker2 = L.marker([19.374390875916195, -99.18476150795547], { icon: iconMarkerI }).addTo(myMap)
 let marker3 = L.marker([19.422988252256328, -99.16081616931851], { icon: iconMarkerB }).addTo(myMap)
 
 
+
+var popup = L.popup()
+    .setLatLng([19.374390875916195, -99.18476150795547])
+    .setContent('<p>Hello world!<br />This is a nice popup.</p>')
+    .openOn(map);
 
 
 navigator.geolocation.getCurrentPosition(
