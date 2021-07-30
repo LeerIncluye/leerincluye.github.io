@@ -37,11 +37,6 @@ let marker3 = L.marker([19.422988252256328, -99.16081616931851], { icon: iconMar
 
 
 
-var popup = L.popup()
-    .setLatLng([19.374390875916195, -99.18476150795547])
-    .setContent('<p>Hello world!<br />This is a nice popup.</p>')
-    .openOn(map);
-
 
 navigator.geolocation.getCurrentPosition(
     (pos) => {

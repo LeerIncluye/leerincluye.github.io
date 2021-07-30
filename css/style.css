@@ -1,6 +1,5 @@
 :root {
-    --primario: #624fd1;
-    --secundario: #ff1b1bf3;
+    --primario: #624fd1 --secundario: #ff1b1bf3;
     --negro: #000000;
     --claro: #ffffff;
     --gris: #eeeeee;
@@ -56,25 +55,27 @@ h3 {
 .contenedor {
     max-width: 1100px;
     margin: 0 auto;
+    align-items: center;
+    text-align: center;
 }
 
 
 /* Header */
 
-.headera {
+.header {
     margin-top: 2rem;
     padding: var(--padding);
     background-color: var(--primario);
 }
 
-.headera .contenedor {
+.header .contenedor {
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-row-gap: 3rem;
     justify-content: center;
 }
 
-.headera .menu {
+.header .menu {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-content: center;
@@ -133,10 +134,6 @@ h3 {
 .contenido-nosotros h2 {
     font-size: 3rem;
     font-weight: 300;
-}
-
-#mapid {
-    height: 180px;
 }
 
 
