@@ -61,9 +61,11 @@ img {
 }
 
 .informacion {
-    background-color: #a54ac9;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 1.4rem;
+    border: #282828 solid 2px;
+    box-shadow: #000000 1px 1px 1px 4px;
 }
 
 .informacion p {
@@ -146,7 +148,9 @@ blockquote {
     }
 }
 
+
+/*
 .footer .contenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
-}
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}  */

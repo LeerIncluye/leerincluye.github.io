@@ -1,17 +1,12 @@
 :root {
-    --primario: #624fd1 --secundario: #ff1b1bf3;
+    --primario: #7049cc;
+    --secundario: #ff4545;
     --negro: #000000;
     --claro: #ffffff;
     --gris: #eeeeee;
-    --oscuro: #49c965;
+    --oscuro: #372ba4;
     --padding: 1rem;
     --paddingt: 2rem;
-}
-
-#saludo {
-    color: #624fd1;
-    font-weight: 600;
-    text-shadow: -2px 1px #000000;
 }
 
 body {
@@ -55,8 +50,6 @@ h3 {
 .contenedor {
     max-width: 1100px;
     margin: 0 auto;
-    align-items: center;
-    text-align: center;
 }
 
 
@@ -79,10 +72,6 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-content: center;
-}
-
-.logo {
-    max-width: 4.875rem;
 }
 
 @media (min-width:992px) {
@@ -262,105 +251,8 @@ h3 {
     padding: 1rem;
 }
 
-.header {
-    padding-top: 3rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.hero {
-    background-image: url(../imagenes/logo.jpg);
-    background-position: center center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.barra {
-    background-color: #791392;
-    padding: 1rem 0;
-    position: absolute;
-    top: 1rem;
-    width: 100%;
-}
-
-.barra .contenedor {
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width:768px) {
-    .barra .contenedor {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-.logo {
-    text-align: center;
-}
-
-.logo img {
-    max-width: 300px;
-}
-
-.navegacion {
-    text-align: center;
-}
-
-@media screen and (min-width:768px) {
-    .navegacion {
-        flex: 0 0 20rem;
-    }
-}
-
-.navegacion ul {
-    list-style: none;
-    display: flex;
-    flex: 0 0 300px;
-    flex-direction: column;
-}
-
-@media screen and (min-width:768px) {
-    .navegacion ul {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-.navegacion ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.header-contenido .contenedor {
-    display: flex;
-}
-
-.header-contenido h1 {
-    padding: 2rem;
-    color: #008fd1;
-    text-transform: uppercase;
-    font-size: 3rem;
-    max-width: 40rem;
-}
-
-
-/** Categorias **/
-
-.categorias ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0;
-    list-style: none;
-}
-
-
-/** Centrado **/
+/** Centrado 
 
 .centrado {
     min-height: 100vh;
@@ -417,4 +309,4 @@ h3 {
 .abajo {
     align-self: flex-end;
     margin-bottom: 1rem;
-}
+}**/
