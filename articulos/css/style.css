@@ -49,11 +49,11 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 70%;
 }
 
 .slider img {
-    width: 100%;
+    width: 50%;
 }
 
 .entrada p {
@@ -87,7 +87,7 @@ blockquote {
 }
 
 .footer {
-    background-color: #ff6c6c;
+    background-color: #ab4ac9;
     padding-top: 3rem;
     text-align: center;
 }
@@ -148,9 +148,7 @@ blockquote {
     }
 }
 
-
-/*
 .footer .contenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
-}  */
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
