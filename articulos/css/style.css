@@ -49,15 +49,16 @@ h1 {
 }
 
 img {
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .slider img {
-    width: 50%;
+    width: 100%;
 }
 
 .entrada p {
     text-align: justify;
+    margin: 5px;
 }
 
 .informacion {

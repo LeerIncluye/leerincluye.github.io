@@ -85,7 +85,7 @@ h3 {
     }
     .header .menu {
         grid-column: 3/ 4;
-        text-align: right;
+        text-align: center;
         display: grid;
         align-content: center;
         grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
@@ -93,9 +93,12 @@ h3 {
 }
 
 .header .menu a {
-    color: var(--claro);
+    color: var(--gris);
     text-decoration: none;
     font-size: 1.2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
