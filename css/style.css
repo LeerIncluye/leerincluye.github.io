@@ -210,8 +210,8 @@ h3 {
 
 .footer {
     background-color: var(--primario);
-    padding-top: var(--paddingt);
-    margin-top: 2rem;
+    padding-top: var(--padding);
+    margin-top: 1rem;
     color: var(--claro);
 }
 
