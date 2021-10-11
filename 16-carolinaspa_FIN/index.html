@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolina Spa</title>
+    <title> LNI-INDEX</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 
@@ -52,32 +54,168 @@
             </nav>
         </div>
     </div>
+    <div class="contenedor">
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
 
-    <section class="swiper contenedor">
-        <h1>Desliza a la derecha!</h1>
-        <ul class="swiper-wrapper">
-            <li class="swiper-slide">
-                <img class="slider__imagen" src="../img/1.png" alt="imagen slide">
-            </li>
-            <li class="swiper-slide">
-                <img class="slider__imagen" src="../img/arrullar-desde-tierra.png" alt="imagen slide">
-            </li>
-            <li class="swiper-slide">
-                <img class="slider__imagen" src="../img/3.png" alt="imagen slide">
-            </li>
-            <li class="swiper-slide">
-                <img class="slider__imagen" src="../img/2.png" alt="imagen slide">
-            </li>
-        </ul>
-    </section>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item">
+                    <img src="" class="/img/LSM.png  img-fluid w-100" alt="...">
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/2.png" class="d-block  img-fluid w-100" alt="...">
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/img/3.png" class="d-block  img-fluid w-100" alt="...">
+
+                </div>
+                <div class="carousel-item active">
+                    <img src="/img/Diapositiva1.png" class="d-block img-fluid m w-100" alt="Deconstrucción del género en la literatura infantil y juvenil">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/niño camara.jpg" class="d-block  img-fluid w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/autores_natalia_toledo.png" class="d-block  img-fluid w-100" alt="...">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+        </div>
+    </div>
 
     <section class="bienvenida seccion">
-        <h1 class="bienvenida__heading">bienvenida(o) a tu <span>sitio web</span> </h1>
-        <p class="bienvenida__texto"> Lo que hay aquí son experiencias y queremos compartirlas contigo! </p>
+        <h1 class="bienvenida__heading"> Experiencias Colectivas en <span>  <strong>Espacios de Lectura </strong>  </span> </h1>
+        <p class="bienvenida__texto"> Nuestro objetivo es difundir el trabajo de la comunidad lectora a la que perteneces </p>
     </section>
+
+    <main class="productos contenedor seccion">
+
+        <div class="productos__grid">
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="Genero-escritura.png" alt="imagen producto">
+                </div>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Articulo</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                    <p class="producto__precio">autor</p>
+
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="genero_escritura-ellx.png" alt="imagen producto">
+                    <div class="producto__contenido">
+                        <h3 class="producto__nombre">Articulo</h3>
+                        <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                        <p class="producto__precio">autor</p>
+                    </div>
+                </div>
+
+                >
+            </div>
+
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="genero_escritura-ellx.png" alt="imagen producto">
+                    <div class="producto__contenido">
+                        <h3 class="producto__nombre">Articulo</h3>
+                        <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                        <p class="producto__precio">autor</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
+                    <div class="producto__contenido">
+                        <h3 class="producto__nombre">Articulo</h3>
+                        <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                        <p class="producto__precio">autor</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
+                </div>
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Articulo</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                    <p class="producto__precio">autor</p>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
+                    <div class="producto__contenido">
+                        <h3 class="producto__nombre">Articulo</h3>
+                        <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                        <p class="producto__precio">autor</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
+                    <div class="producto__contenido">
+                        <h3 class="producto__nombre">Articulo</h3>
+                        <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                        <p class="producto__precio">autor</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="producto">
+                <div class="producto__mask">
+                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
+                </div>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Articulo</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+                    <p class="producto__precio">autor</p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
 
     <section class="cards">
         <div class="cards__grid contenedor">
+            <h3 class="producto__nombre">Articulo</h3>
+            <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
+            <p class="producto__precio">autor</p>
             <div class="card">
                 <img class="card__imagen" src="autores-portada.png" alt="imagen card">
 
@@ -106,111 +244,7 @@
             </div>
         </div>
     </section>
-    <!--
-    <section class="horario">
-        <div class="horario__grid contenedor">
-            <div class="horario__contenido">
-                <h3 class="horario__heading">Horarios</h3>
-                <p class="horario__texto">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil optio, maxime, deleniti aperiam atque in praesentium suscipit autem minus aliquam molestias eos, adipisci vero id enim doloribus ex rem delectus.
-                </p>
 
-                <table class="tabla">
-                    <thead class="tabla__thead">
-                        <tr>
-                            <th class="tabla__th">Día</th>
-                            <th class="tabla__th">De</th>
-                            <th class="tabla__th">Hasta</th>
-                        </tr>
-                    </thead>
-
-                    <tbody class="tabla__tbody">
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Lunes</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Martes</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Miércoles</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Jueves</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Viernes</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Sábado</td>
-                            <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">14:00</td>
-                        </tr>
-
-                        <tr class="tabla__tr">
-                            <td class="tabla__td">Domingo</td>
-                            <td class="tabla__td" colspan="2">Cerrado</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    -->
-
-    <main class="productos contenedor seccion">
-        <h2 class="productos__heading">nuestros <span>productos</span></h2>
-
-        <div class="productos__grid">
-            <div class="producto">
-                <div class="producto__mask">
-                    <img class="producto__imagen" src="Genero-escritura.png" alt="imagen producto">
-                </div>
-                <!--
-                <div class="producto__contenido">
-                    <h3 class="producto__nombre">Producto 1</h3>
-                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eveniet neque</p>
-                    <p class="producto__precio">$25</p>
-                </div> -->
-            </div>
-
-            <div class="producto">
-                <div class="producto__mask">
-                    <img class="producto__imagen" src="genero_escritura-ellx.png" alt="imagen producto">
-                </div>
-
-            </div>
-
-            <div class="producto">
-                <div class="producto__mask">
-                    <img class="producto__imagen" src="identidad-vs-expresion.png" alt="imagen producto">
-                </div>
-
-            </div>
-
-            <div class="producto">
-                <div class="producto__mask">
-                    <img class="producto__imagen" src="build/img/producto_04.jpg" alt="imagen producto">
-                </div>
-
-            </div>
-        </div>
-    </main>
 
     <section class="cita">
         <h2 class="cita__heading">Puedes sumarte a este proyecto</h2>
@@ -223,7 +257,7 @@
         <div class="footer__grid contenedor">
             <div class="footer__widget">
                 <h3 class="footer__heading">Nosotros</h3>
-                <p class="footer__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cum, minus atque harum maxime reprehenderit fugiat sed corrupti inventore tempora quisquam provident aut facere ipsum pariatur, esse velit blanditiis quae!</p>
+                <p class="footer__texto">
             </div>
 
             <div class="footer__widget">
@@ -235,7 +269,7 @@
 
             <div class="footer__widget">
                 <h3 class="footer__heading">Contacto</h3>
-                <p class="footer__texto">Av. Revolución 1818</p>
+                <p class="footer__texto">Goya 54 Col. Mixcoac CDMX</p>
 
                 <nav class="sociales">
                     <a class="sociales__enlace" href="https://facebook.com/carolinaspa">
@@ -250,14 +284,12 @@
                     <a class="sociales__enlace" href="https://youtube.com">
                         <span class="sociales__accesible">YouTube</span>
                     </a>
-                    <a class="sociales__enlace" href="https://tiktok.com">
-                        <span class="sociales__accesible">TikTok</span>
-                    </a>
+
                 </nav>
             </div>
         </div>
 
-        <p class="footer__copyright">Carolina Spa & Salon. Todos los derechos reservados</p>
+        <p class="footer__copyright">Leer Nos Incluye a TODXS. Todos los derechos reservados</p>
     </footer>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
