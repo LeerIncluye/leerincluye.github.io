@@ -373,11 +373,15 @@ a {
 }
 
 .sociales__enlace[href*="facebook.com"]:before {
-    background-image: url(../img/logotipo-circular-de-facebook.png)
+    background-image: url(../img/icono_facebook.svg)
+}
+
+.sociales__enlace[href*="twitter.com"]:before {
+    background-image: url(../img/icono_twitter.svg)
 }
 
 .sociales__enlace[href*="instagram.com"]:before {
-    background-image: url(../img/instagram.png)
+    background-image: url(../img/icono_instagram.svg)
 }
 
 .sociales__enlace[href*="youtube.com"]:before {

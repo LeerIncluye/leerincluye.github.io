@@ -388,10 +388,6 @@ a {
     background-image: url(../img/icono_youtube.svg)
 }
 
-.sociales__enlace[href*="tiktok.com"]:before {
-    background-image: url(../img/icono_tiktok.svg)
-}
-
 .sociales__accesible {
     clip: rect(0, 0, 0, 0);
     border: 0;
