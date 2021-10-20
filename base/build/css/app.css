@@ -479,7 +479,7 @@ a {
 
 .card {
     margin: 0 auto 2rem;
-    max-width: 35rem
+    max-width: 35rem;
 }
 
 .card:last-of-type {
