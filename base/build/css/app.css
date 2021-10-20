@@ -450,7 +450,7 @@ a {
     font-family: sans-serif;
     font-size: 4rem;
     font-weight: 400;
-    line-height: .8;
+    line-height: 1.1;
     text-align: center;
 }
 
@@ -464,7 +464,7 @@ a {
 .bienvenida__texto {
     color: #979797;
     font-size: 2.6rem;
-    line-height: 1.8;
+    line-height: 1.2;
     margin: 4rem auto 0;
     max-width: 50rem
 }
@@ -615,7 +615,7 @@ a {
     font-family: sans-serif;
     font-size: 4rem;
     font-weight: 400;
-    line-height: .8;
+    line-height: 1.2;
     margin-bottom: 5rem;
     text-align: center;
 }
@@ -695,7 +695,7 @@ a {
 
 .cita {
     background-attachment: fixed;
-    background-image: url(/img/bunko.jpg);
+    background-image: url(/img/ibby-4.png);
     background-position: 50%;
     background-size: cover;
     padding: 5rem 0;
@@ -708,18 +708,21 @@ a {
     font-size: 6rem;
     font-weight: 400;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-color: #ffffffc7;
 }
 
 .cita__texto {
     color: rgb(0, 0, 0);
     line-height: 2;
+    font-weight: 500;
     margin: 0 auto;
-    max-width: 60rem
+    max-width: 60rem;
+    background-color: #b48ed3e0;
 }
 
 .cita__enlace {
-    background-color: #8ed3cc;
+    background-color: #b48ed3;
     color: rgb(0, 0, 0);
     display: inline-block;
     font-size: 2.2rem;
